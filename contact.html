@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a class="active" href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <!-- <a href="about.html">Student Details</a> -->
+
+           </div>
+    </nav>
+    <div>
+        <div class="main-container-contact"></div>
+    </div>
+    <div class="container">
+        <!-- <a onclick="logJSONData()">click</a> -->
+
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="contact">Contact:</label>
+          <input type="tel" id="contact" name="contact" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="enquiry">Enquiry:</label>
+          <textarea id="enquiry" name="enquiry" required></textarea>
+          
+          <input type="submit" value="Submit" class="submit-btn">
+        </form>
+        <div id="message" class="message"></div>
+      </div>
+
+
+
+    <footer>
+        <p>Author: Vikash Gupta</p>
+        <a href ="mailto:kvikashgupta143@gmail.com?subject = Feedback">kvikashgupta143@gmail.com</a></p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
